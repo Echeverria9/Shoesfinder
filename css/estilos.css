@@ -1,0 +1,33 @@
+html,body{
+  padding:0px;
+  margin:0px;
+  background-color: #f1bb87;
+  font-size: 14px;
+  font-family: arial black;
+}
+nav {
+  padding:10px;
+  background-color: #ff675b;
+  color: #efefd0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav,ul {
+  display: flex;
+}
+
+nav, li {
+  padding-right: 30px;
+  list-style: none;
+}
+
+nav, li, a {
+  color: white;
+  text-decoration: none;
+}
+
+nav,li,a:hover{
+  color: black;
+}
