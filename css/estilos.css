@@ -2,8 +2,12 @@ html,body{
   padding:0px;
   margin:0px;
   background-color: #f1bb87;
+  background-image: url("../imagenes/back_1.png");
   font-size: 14px;
   font-family: arial black;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 nav {
   padding:10px;
@@ -30,4 +34,13 @@ nav, li, a {
 
 nav,li,a:hover{
   color: black;
+}
+
+/* Aqui empieza el main */
+
+.main_seccion {
+ padding: 8.2%;
+ text-align: left;
+ font-size: 25px;
+ color: white; 
 }
