@@ -36,6 +36,26 @@ nav,li,a:hover{
   color: black;
 }
 
+/* Ajustes de Malvacea */
+
+#buscador {
+  margin-right: 20px;
+  width: 300px;
+  border-radius: 10%;
+}
+
+#nav-red {
+  background-color: #f78e69;
+  height: 25px;
+  width: 100%;
+  font-size: 18px;
+}
+
+#nav-red ul li {
+  margin-right: 20px;
+  border-right: 1px solid black;
+}
+
 /* Aqui empieza el main */
 
 .main_seccion {
@@ -43,4 +63,13 @@ nav,li,a:hover{
  text-align: left;
  font-size: 25px;
  color: white; 
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  opacity: 60%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 8%;
 }
